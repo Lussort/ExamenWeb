@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+
+
+.principal {
+    padding: 20px;
+}
+
+.pokemon-list, .favoritos-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.pokemon-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #006800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
